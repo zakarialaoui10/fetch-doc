@@ -6,6 +6,3 @@ async function fetchdom(url='https://github.com/zakarialaoui10'){
   const dom= await new jsdom.JSDOM(html)
   return dom.window.document
 }
-fetchdom('https://github.com/zakarialaoui10')
-  .then(e=>e.querySelector("[data-bio-text]").textContent)
-  .then(e=>console.log(e))
