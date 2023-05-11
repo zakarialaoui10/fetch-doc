@@ -4,6 +4,8 @@ async function fetchdom(url='https://github.com/zakarialaoui10'){
   const data=await fetch(url)
   const html=await data.text()
   const dom= await new jsdom.JSDOM(html)
-  return dom.window
+  return dom.window.document
 }
-fetchdom().then(e=>console.log(e.document.querySelector("[data-bio-text]").textContent))
+fetchdom('https://github.com/zakarialaoui10')
+  .then(e=>e.querySelector("[data-bio-text]").textContent)
+  .then(e=>console.log(e))
