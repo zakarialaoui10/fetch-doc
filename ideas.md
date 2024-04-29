@@ -1,5 +1,5 @@
 ```javascript
-b=["yjose","zakarialaoui10"]
+b=["mouadziani","zakarialaoui10"]
   .map(n=>fetchdom("https://github.com/"+n))
 */ 
 b.map(n=>n

@@ -1,0 +1,1 @@
+export { fetch_async } from "./fetch-async.js";
