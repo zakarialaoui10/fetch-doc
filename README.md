@@ -24,7 +24,7 @@ To fetch and parse multiple HTML documents asynchronously :
 ```js
  FetchDom.all(
     "https://github.com/zakarialaoui10",
-    "https://github.com/zakarialaoui10"
+    "https://github.com/ABDELLK-ai"
  )
   .then(e=>e.map(n=>n.querySelector("[data-bio-text]").textContent))
   .then(e=>console.log(e))
@@ -34,7 +34,7 @@ To fetch and parse multiple HTML documents synchronously :
 ```js
  const document=FetchDom.allSync(
     "https://github.com/zakarialaoui10",
-    "https://github.com/zakarialaoui10"
+    "https://github.com/ABDELLK-ai"
 )
 ```
 
