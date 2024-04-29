@@ -1,0 +1,23 @@
+{
+  "name": "fetch-dom",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakarialaoui10/fetch-dom.git"
+  },
+  "author": "zakaria elalaoui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakarialaoui10/fetch-dom/issues"
+  },
+  "homepage": "https://github.com/zakarialaoui10/fetch-dom#readme",
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
