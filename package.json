@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/zakarialaoui10/fetch-dom#readme",
   "dependencies": {
-    "jsdom": "^24.0.0"
+    "jsdom": "^24.0.0",
+    "sync-request": "^6.1.0"
   }
 }
