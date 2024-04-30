@@ -51,7 +51,7 @@ export default {
 ],
   plugins: [
     resolve(), 
-    //commonjs(),
+    commonjs(),
     // babel({
     //   babelHelpers: 'bundled', // or 'runtime'
     //   //exclude: 'node_modules/**',
