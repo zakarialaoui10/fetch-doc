@@ -10,12 +10,12 @@ const preload = (url) => {
   }
 }
 
-function fetch_sync(url='https://github.com/zakarialaoui10'){
+function node_fetch_sync(url='https://github.com/zakarialaoui10'){
   const data=preload(url);
   const dom= new jsdom.JSDOM(data);
   return dom.window.document;
 }
 
 export { 
-    fetch_sync
+    node_fetch_sync
 }

@@ -2,9 +2,10 @@
   "name": "fetch-dom",
   "version": "0.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/fetch-dom.js",
   "type": "module",
   "scripts": {
+    "build": "rollup -c rollup.config.js",
     "test": "node src/index.js"
   },
   "repository": {
@@ -20,5 +21,11 @@
   "dependencies": {
     "jsdom": "^24.0.0",
     "sync-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.17.2"
   }
 }

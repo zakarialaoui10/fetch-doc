@@ -1,5 +1,5 @@
 import jsdom from 'jsdom';
-const fetch_async= async (url = 'https://github.com/zakarialaoui10', options = {})=>{
+const node_fetch_async= async (url = 'https://github.com/zakarialaoui10', options = {})=>{
     try {
         const data = await fetch(url, options);
         if (!data.ok) throw new Error(`Failed to fetch: ${data.status} - ${data.statusText}`);
@@ -13,5 +13,5 @@ const fetch_async= async (url = 'https://github.com/zakarialaoui10', options = {
 }
 
 export {
-    fetch_async
+    node_fetch_async
 }
