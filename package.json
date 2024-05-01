@@ -1,5 +1,5 @@
 {
-  "name": "fetch-dom",
+  "name": "@ziko/fetch-dom",
   "version": "0.0.0",
   "description": "fetch and parse HTML documents asynchronously and synchronously",
   "main": "src/index.js",
