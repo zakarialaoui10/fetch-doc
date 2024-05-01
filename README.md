@@ -40,7 +40,8 @@ To fetch and parse multiple HTML documents synchronously :
 
 # ⭐️ Show your support <a name="support"></a>
 
-If you appreciate the library, kindly demonstrate your support by giving it a star!<br>
+If you've found the library helpful, show your support by giving it a star! Your feedback means a lot
+
 [![Star](https://img.shields.io/github/stars/zakarialaoui10/fetch-dom?style=social)](https://github.com/zakarialaoui10/fetch-dom)
 
 # License 
