@@ -3,12 +3,13 @@ FetchDom is a JavaScript module for fetching and parsing HTML documents asynchro
 # Installation
  You can install FetchDom via npm :
  ```bash
-  npm i fetch-dom
+  npm i @ziko/fetch-dom
  ```
 # Usage 
 ## Asynchronous Fetch and Parse
 To perform an asynchronous fetch and parse of an HTML document :
 ```js
+import FetchDom from "@ziko/fetch-dom"
 FetchDom.async("https://github.com/zakarialaoui10")
  .then(e=>e.querySelector("[data-bio-text]").textContent)
  .then(e=>console.log(e))
@@ -16,12 +17,14 @@ FetchDom.async("https://github.com/zakarialaoui10")
 ## Synchronous Fetch and Parse
 To perform an asynchronous fetch and parse of an HTML document :
 ```js
+import FetchDom from "@ziko/fetch-dom"
 const dcument=FetchDom.sync("https://github.com/zakarialaoui10")
 console.log(document.querySelector("[data-bio-text]").textContent)
 ``` 
 ## Fetch and Parse All Asynchronously
 To fetch and parse multiple HTML documents asynchronously :
 ```js
+import FetchDom from "@ziko/fetch-dom"
  FetchDom.all(
     "https://github.com/zakarialaoui10",
     "https://github.com/ABDELLK-ai"
@@ -32,6 +35,7 @@ To fetch and parse multiple HTML documents asynchronously :
 ## Fetch and Parse All Synchronously
 To fetch and parse multiple HTML documents synchronously :
 ```js
+import FetchDom from "@ziko/fetch-dom"
  const document=FetchDom.allSync(
     "https://github.com/zakarialaoui10",
     "https://github.com/ABDELLK-ai"
