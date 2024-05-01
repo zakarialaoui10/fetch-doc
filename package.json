@@ -13,7 +13,7 @@
     "url": "git+https://github.com/zakarialaoui10/fetch-dom.git"
   },
   "author": "zakaria elalaoui",
-  "keywords": ["scrapping","scrapper","fetch","htmlparser","html"],
+  "keywords": ["scrapping","scrapper","fetch","htmlparser","html","ziko-micro"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zakarialaoui10/fetch-dom/issues"
