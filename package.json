@@ -1,7 +1,7 @@
 {
   "name": "fetch-dom",
   "version": "0.0.0",
-  "description": "",
+  "description": "fetch and parse HTML documents asynchronously and synchronously",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -13,6 +13,7 @@
     "url": "git+https://github.com/zakarialaoui10/fetch-dom.git"
   },
   "author": "zakaria elalaoui",
+  "keywords": ["scrapping","scrapper","fetch","htmlparser","html"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zakarialaoui10/fetch-dom/issues"

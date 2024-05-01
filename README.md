@@ -38,4 +38,13 @@ To fetch and parse multiple HTML documents synchronously :
 )
 ```
 
-# Licence
+# ⭐️ Show your support <a name="support"></a>
+
+If you appreciate the library, kindly demonstrate your support by giving it a star!<br>
+[![Star](https://img.shields.io/github/stars/zakarialaoui10/fetch-dom?style=social)](https://github.com/zakarialaoui10/fetch-dom)
+
+# License 
+This projet is licensed under the terms of MIT License 
+<img src="https://img.shields.io/github/license/zakarialaoui10/zikojs?color=rgb%2820%2C21%2C169%29" width="100" align="right">
+
+ 
