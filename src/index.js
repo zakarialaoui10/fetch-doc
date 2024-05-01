@@ -12,11 +12,4 @@ const FetchDom={
     all: async (...urls) => Promise.all(urls.map(n=>fetch_async(n))),
     allSync: (...urls) =>  urls.map(url => fetch_sync(url))
 }
-
-FetchDom.all(
-    "https://github.com/zakarialaoui10",
-    "https://github.com/ABDELLK-ai"
- )
-  .then(e=>e.map(n=>n.querySelector("[data-bio-text]").textContent))
-  .then(e=>console.log(e))
 export default FetchDom;

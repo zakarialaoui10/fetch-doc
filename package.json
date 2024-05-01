@@ -2,7 +2,7 @@
   "name": "fetch-dom",
   "version": "0.0.0",
   "description": "",
-  "main": "dist/fetch-dom.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c rollup.config.js",
