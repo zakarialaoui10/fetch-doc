@@ -1,4 +1,4 @@
-FetchDoc is a JavaScript module for fetching and parsing HTML documents asynchronously and synchronously.
+fetch-doc is a JavaScript module for fetching and parsing HTML documents asynchronously and synchronously.
 
 # Installation
  You can install FetchDoc via npm :
