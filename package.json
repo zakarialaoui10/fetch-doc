@@ -1,6 +1,6 @@
 {
-  "name": "@ziko/fetch-dom",
-  "version": "0.0.0",
+  "name": "fetch-doc",
+  "version": "0.0.1",
   "description": "fetch and parse HTML documents asynchronously and synchronously",
   "main": "src/index.js",
   "type": "module",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zakarialaoui10/fetch-dom.git"
+    "url": "git+https://github.com/zakarialaoui10/fetch-doc.git"
   },
   "author": "zakaria elalaoui",
-  "keywords": ["scrapping","scrapper","fetch","htmlparser","html","ziko-micro"],
+  "keywords": ["scrapping","scrapper","fetch","htmlparser","html"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zakarialaoui10/fetch-dom/issues"
+    "url": "https://github.com/zakarialaoui10/fetch-doc/issues"
   },
-  "homepage": "https://github.com/zakarialaoui10/fetch-dom#readme",
+  "homepage": "https://github.com/zakarialaoui10/fetch-doc#readme",
   "dependencies": {
     "jsdom": "^24.0.0",
     "sync-request": "^6.1.0"

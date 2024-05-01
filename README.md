@@ -1,31 +1,31 @@
-FetchDom is a JavaScript module for fetching and parsing HTML documents asynchronously and synchronously.
+FetchDoc is a JavaScript module for fetching and parsing HTML documents asynchronously and synchronously.
 
 # Installation
- You can install FetchDom via npm :
+ You can install FetchDoc via npm :
  ```bash
-  npm i @ziko/fetch-dom
+  npm i fetch-doc
  ```
 # Usage 
 ## Asynchronous Fetch and Parse
 To perform an asynchronous fetch and parse of an HTML document :
 ```js
-import FetchDom from "@ziko/fetch-dom"
-FetchDom.async("https://github.com/zakarialaoui10")
+import FetchDoc from "fetch-doc"
+FetchDoc.async("https://github.com/zakarialaoui10")
  .then(e=>e.querySelector("[data-bio-text]").textContent)
  .then(e=>console.log(e))
 ``` 
 ## Synchronous Fetch and Parse
 To perform an asynchronous fetch and parse of an HTML document :
 ```js
-import FetchDom from "@ziko/fetch-dom"
-const dcument=FetchDom.sync("https://github.com/zakarialaoui10")
+import FetchDoc from "fetch-doc"
+const dcument=FetchDoc.sync("https://github.com/zakarialaoui10")
 console.log(document.querySelector("[data-bio-text]").textContent)
 ``` 
 ## Fetch and Parse All Asynchronously
 To fetch and parse multiple HTML documents asynchronously :
 ```js
-import FetchDom from "@ziko/fetch-dom"
- FetchDom.all(
+import FetchDoc from "fetch-doc"
+ FetchDoc.all(
     "https://github.com/zakarialaoui10",
     "https://github.com/ABDELLK-ai"
  )
@@ -35,8 +35,8 @@ import FetchDom from "@ziko/fetch-dom"
 ## Fetch and Parse All Synchronously
 To fetch and parse multiple HTML documents synchronously :
 ```js
-import FetchDom from "@ziko/fetch-dom"
- const document=FetchDom.allSync(
+import FetchDoc from "fetch-doc"
+ const document=FetchDoc.allSync(
     "https://github.com/zakarialaoui10",
     "https://github.com/ABDELLK-ai"
 )
