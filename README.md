@@ -1,7 +1,7 @@
 fetch-doc is a JavaScript module for fetching and parsing HTML documents asynchronously and synchronously.
 
 # Installation
- You can install FetchDoc via npm :
+ You can install fetch-doc via npm :
  ```bash
   npm i fetch-doc
  ```
