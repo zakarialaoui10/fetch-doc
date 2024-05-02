@@ -13,7 +13,16 @@
     "url": "git+https://github.com/zakarialaoui10/fetch-doc.git"
   },
   "author": "zakaria elalaoui",
-  "keywords": ["scrapping","scrapper","fetch","htmlparser","html","dom","document","selector"],
+  "keywords": [
+    "scrapping",
+    "scrapper",
+    "fetch",
+    "htmlparser",
+    "html",
+    "dom",
+    "document",
+    "selector"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zakarialaoui10/fetch-doc/issues"
