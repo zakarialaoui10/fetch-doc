@@ -18,3 +18,4 @@ Promise.all(b)
 
 // fetchdom.all
 ```
+ 
