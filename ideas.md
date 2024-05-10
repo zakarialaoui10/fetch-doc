@@ -7,7 +7,7 @@ b.map(n=>n
   .then(e=>console.log(e))
       )
 */
-
+ 
 Promise.all(b)
 .then(es=>{
   es.map(e=>{
