@@ -29,8 +29,10 @@
   },
   "homepage": "https://github.com/zakarialaoui10/fetch-doc#readme",
   "dependencies": {
+    "dir2tree": "^0.3.2",
     "jsdom": "^24.0.0",
-    "sync-request": "^6.1.0"
+    "sync-request": "^6.1.0",
+    "zikodb": "^0.0.1"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
