@@ -1,0 +1,5 @@
+name: 'Master'
+description: 'dir2tree'
+runs:
+  using: 'node16' 
+  main: 'automation/index.js'  
