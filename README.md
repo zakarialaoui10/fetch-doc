@@ -18,7 +18,7 @@ FetchDoc.async("https://github.com/zakarialaoui10")
 To perform an asynchronous fetch and parse of an HTML document :
 ```js
 import FetchDoc from "fetch-doc"
-const dcument=FetchDoc.sync("https://github.com/zakarialaoui10")
+const document=FetchDoc.sync("https://github.com/zakarialaoui10")
 console.log(document.querySelector("[data-bio-text]").textContent)
 ``` 
 ## Fetch and Parse All Asynchronously
