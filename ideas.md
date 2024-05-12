@@ -6,7 +6,7 @@ b.map(n=>n
   .then(e=>e.querySelector("[data-bio-text]").textContent)
   .then(e=>console.log(e))
       )
-*/
+*/ 
  
 Promise.all(b)
 .then(es=>{
