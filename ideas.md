@@ -15,7 +15,7 @@ Promise.all(b)
   console.log(data.textContent)
   })
 })
-
+ 
 // fetchdom.all
 ```
  
