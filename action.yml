@@ -2,4 +2,4 @@ name: 'Master'
 description: 'fetch-doc'
 runs:
   using: 'node16' 
-  main: 'automation/index.js'  
+  main: 'automation/index.js'   
