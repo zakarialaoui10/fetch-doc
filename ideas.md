@@ -18,4 +18,4 @@ Promise.all(b)
  
 // fetchdom.all
 ```
- reformule output  
+ reformule output   
