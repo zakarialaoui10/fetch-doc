@@ -1,4 +1,4 @@
-```javascript
+```javascript 
 b=["mouadziani","zakarialaoui10"]
   .map(n=>fetchdom("https://github.com/"+n))
 */ 
