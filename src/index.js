@@ -42,6 +42,5 @@ FetchDoc.async("https://github.com/sindresorhus?tab=sponsoring")
 
 // const doc= FetchDoc.sync("https://github.com/sindresorhus?tab=sponsoring")
 // const el=[...doc.querySelectorAll("#user-profile-frame > div > div > div > div span.Link--secondary")].map(n=>n.textContent)
-// console.log(el)
 
 export default FetchDoc;
