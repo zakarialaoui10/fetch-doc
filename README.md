@@ -32,6 +32,7 @@ import FetchDoc from "fetch-doc"
   .then(e=>e.map(n=>n.querySelector("[data-bio-text]").textContent))
   .then(e=>console.log(e))
 ```
+
 ## Fetch and Parse All Synchronously
 To fetch and parse multiple HTML documents synchronously :
 ```js
